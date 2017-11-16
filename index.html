@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>He-Man RPG</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	    <script src="assets/javascript/game.js"></script>
+	    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+
+	<body>
+		<div class="container-fluid content">
+			<!-- HEADER -->
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h1>Masters of the Universe RPG</h1>
+				</div>
+			</div>
+
+			<!-- GAME CONSOLE -->
+			<div class="row">
+				<div class="col-lg-12">
+					<!-- CHARACTERS TO SELECT -->
+					<div class="row">
+						<div class="col-lg-12" id="characters">
+							<!-- 
+							<div class="bg-white border border-success rounded text-center float-left mr-1 mt-2 pr-2 pl-2 character" id="He-Man">
+								<p>He-Man</p>
+								<img src="assets/images/he-man.jpg" class="">
+								<p>150</p>
+							</div>
+							<div class="bg-white border border-success rounded text-center float-left mr-1 mt-2 pr-2 pl-2 character" id="Man-At-Arms">
+								<p>Man-At-Arms</p>
+								<img src="assets/images/man-at-arms.jpg" class="">
+								<p>120</p>
+							</div>
+							<div class="bg-white border border-success rounded text-center float-left mr-1 mt-2 pr-2 pl-2 character" id="She-Ra">
+								<p>She-Ra</p>
+								<img src="assets/images/she-ra.jpg" class="">
+								<p>145</p>
+							</div>
+							<div class="bg-white border border-success rounded text-center float-left mr-1 mt-2 pr-2 pl-2 character" id="Teela">
+								<p>Teela</p>
+								<img src="assets/images/teela.jpg" class="">
+								<p>90</p>
+							</div>
+							<div class="bg-white border border-success rounded text-center float-left mr-1 mt-2 pr-2 pl-2 character" id="Orko">
+								<p>Orko</p>
+								<img src="assets/images/orko.jpg" class="">
+								<p>100</p>
+							</div>
+							<div class="bg-white border border-success rounded text-center float-left mr-1 mt-2 pr-2 pl-2 character" id="Skeletor">
+								<p>Skeletor</p>
+								<img src="assets/images/skeletor.jpg" class="">
+								<p>130</p>
+							</div>
+							<div class="bg-white border border-success rounded text-center float-left mr-1 mt-2 pr-2 pl-2 character" id="Hordak">
+								<p>Hordak</p>
+								<img src="assets/images/hordak.jpg" class="">
+								<p>135</p>
+							</div>
+							<div class="bg-white border border-success rounded text-center float-left mr-1 mt-2 pr-2 pl-2 character" id="Evil-Lyn">
+								<p>Evil-Lyn</p>
+								<img src="assets/images/evil-lyn.jpg" class="">
+								<p>95</p>
+							</div>
+							<div class="bg-white border border-success rounded text-center float-left mr-1 mt-2 pr-2 pl-2 character" id="Beast-Man">
+								<p>Beast Man</p>
+								<img src="assets/images/beast-man.jpg" class="">
+								<p>115</p>
+							</div>
+						-->
+						</div>
+					</div>
+					<!-- YOUR CHARACTER TITLE-->
+					<div class="row">
+						<div class="col-lg-12">
+							<h2>Your Character</h2>
+						</div>
+					</div>
+					<!-- YOUR CHARACTER SECTION -->
+					<div class="row">
+						<div class="col-lg-12" id="your-character"></div>
+					</div>
+					<!-- ENEMIES TITLE -->
+					<div class="row">
+						<div class="col-lg-12">
+							<h2>Enemies Available to Attack</h2>
+						</div>
+					</div>
+					<!-- ENEMIES SECTION -->
+					<div class="row">
+						<div class="col-lg-12" id="enemies"></div>
+					</div>
+					<!-- FIGHT SECTION TITLE -->
+					<div class="row">
+						<div class="col-lg-12">
+							<h2>Fight Section</h2>
+						</div>
+					</div>
+					<!-- FIGHT SECTION -->
+					<div class="row">
+						<div class="col-lg-12">
+							<button class="btn btn-danger pt-2 pb-2 pl-4 pr-4 m-4">Attack</button>
+						</div>
+					</div>
+					<!-- DEFENDER TITLE -->
+					<div class="row">
+						<div class="col-lg-12">
+							<h2>Defender</h2>
+						</div>
+					</div>
+					<!-- DEFENDER SECTION -->
+					<div class="row">
+						<div class="col-lg-2" id="defender"></div>
+						<div class="col-lg-10" id="defender-text"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
