@@ -21,3 +21,8 @@ h2 {
     height: 100vh;
     flex: 1 0 auto;
 }
+
+#vs-sign {
+	height: 75px;
+	width: auto;
+}

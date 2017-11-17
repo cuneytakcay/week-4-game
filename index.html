@@ -15,109 +15,54 @@
 		<div class="container-fluid content">
 			<!-- HEADER -->
 			<div class="row">
-				<div class="col-lg-12 text-center">
-					<h1>Masters of the Universe RPG</h1>
+				<div class="col-lg-12 text-center mt-4">
+					<h1><strong>Masters of the Universe RPG</strong></h1>
 				</div>
 			</div>
+			<hr>
 
 			<!-- GAME CONSOLE -->
 			<div class="row">
 				<div class="col-lg-12">
+
 					<!-- CHARACTERS TO SELECT -->
 					<div class="row">
-						<div class="col-lg-12" id="characters">
-							<!-- 
-							<div class="bg-white border border-success rounded text-center float-left mr-1 mt-2 pr-2 pl-2 character" id="He-Man">
-								<p>He-Man</p>
-								<img src="assets/images/he-man.jpg" class="">
-								<p>150</p>
-							</div>
-							<div class="bg-white border border-success rounded text-center float-left mr-1 mt-2 pr-2 pl-2 character" id="Man-At-Arms">
-								<p>Man-At-Arms</p>
-								<img src="assets/images/man-at-arms.jpg" class="">
-								<p>120</p>
-							</div>
-							<div class="bg-white border border-success rounded text-center float-left mr-1 mt-2 pr-2 pl-2 character" id="She-Ra">
-								<p>She-Ra</p>
-								<img src="assets/images/she-ra.jpg" class="">
-								<p>145</p>
-							</div>
-							<div class="bg-white border border-success rounded text-center float-left mr-1 mt-2 pr-2 pl-2 character" id="Teela">
-								<p>Teela</p>
-								<img src="assets/images/teela.jpg" class="">
-								<p>90</p>
-							</div>
-							<div class="bg-white border border-success rounded text-center float-left mr-1 mt-2 pr-2 pl-2 character" id="Orko">
-								<p>Orko</p>
-								<img src="assets/images/orko.jpg" class="">
-								<p>100</p>
-							</div>
-							<div class="bg-white border border-success rounded text-center float-left mr-1 mt-2 pr-2 pl-2 character" id="Skeletor">
-								<p>Skeletor</p>
-								<img src="assets/images/skeletor.jpg" class="">
-								<p>130</p>
-							</div>
-							<div class="bg-white border border-success rounded text-center float-left mr-1 mt-2 pr-2 pl-2 character" id="Hordak">
-								<p>Hordak</p>
-								<img src="assets/images/hordak.jpg" class="">
-								<p>135</p>
-							</div>
-							<div class="bg-white border border-success rounded text-center float-left mr-1 mt-2 pr-2 pl-2 character" id="Evil-Lyn">
-								<p>Evil-Lyn</p>
-								<img src="assets/images/evil-lyn.jpg" class="">
-								<p>95</p>
-							</div>
-							<div class="bg-white border border-success rounded text-center float-left mr-1 mt-2 pr-2 pl-2 character" id="Beast-Man">
-								<p>Beast Man</p>
-								<img src="assets/images/beast-man.jpg" class="">
-								<p>115</p>
-							</div>
-						-->
+						<div class="col-lg-12 text-center m-1" id="characters"></div>
+						<div class="col-lg-12 text-center m-1 lead" id="text-1"></div>
+					</div>
+
+					<!-- YOUR CHARACTER AND YOUR ENEMY TITLES -->
+					<div class="row">
+						<div class="col-lg-4 text-center" id="your-character-title"></div>
+						<div class="col-lg-4 text-center"></div>
+						<div class="col-lg-4 text-center" id="your-enemy-title"></div>
+					</div>
+
+					<!-- YOUR CHARACTER AND YOUR ENEMY SECTION -->
+					<div class="row">
+						<div class="col-lg-4 text-center" id="your-character"></div>
+						<div class="col-lg-4 text-center">
+							<img src="assets/images/vs-sign.png" class="mt-4" id="vs-sign">
 						</div>
+						<div class="col-lg-4 text-center" id="your-enemy"></div>
 					</div>
-					<!-- YOUR CHARACTER TITLE-->
-					<div class="row">
-						<div class="col-lg-12">
-							<h2>Your Character</h2>
-						</div>
-					</div>
-					<!-- YOUR CHARACTER SECTION -->
-					<div class="row">
-						<div class="col-lg-12" id="your-character"></div>
-					</div>
-					<!-- ENEMIES TITLE -->
-					<div class="row">
-						<div class="col-lg-12">
-							<h2>Enemies Available to Attack</h2>
-						</div>
-					</div>
-					<!-- ENEMIES SECTION -->
-					<div class="row">
-						<div class="col-lg-12" id="enemies"></div>
-					</div>
-					<!-- FIGHT SECTION TITLE -->
-					<div class="row">
-						<div class="col-lg-12">
-							<h2>Fight Section</h2>
-						</div>
-					</div>
+
 					<!-- FIGHT SECTION -->
 					<div class="row">
-						<div class="col-lg-12">
-							<button class="btn btn-danger pt-2 pb-2 pl-4 pr-4 m-4">Attack</button>
-						</div>
+						<div class="col-lg-4 text-center" id="your-text"></div>
+						<div class="col-lg-4 text-center" id="btn-attack"></div>
+						<div class="col-lg-4 text-center" id="enemy-text"></div>
+						<div class="col-lg-12 text-center" id="result-text"></div>
 					</div>
-					<!-- DEFENDER TITLE -->
+					<hr>
+
+					<!-- ENEMIES SECTION -->
 					<div class="row">
-						<div class="col-lg-12">
-							<h2>Defender</h2>
-						</div>
-					</div>
-					<!-- DEFENDER SECTION -->
-					<div class="row">
-						<div class="col-lg-2" id="defender"></div>
-						<div class="col-lg-10" id="defender-text"></div>
-					</div>
+						<div class="col-lg-12 text-center" id="text-2"></div>
+						<div class="col-lg-12 text-center" id="enemies"></div>
+						<div class="col-lg-12 text-center lead" id="text-3"></div>
+					</div> 
+
 				</div>
 			</div>
 		</div>
