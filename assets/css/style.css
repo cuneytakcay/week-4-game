@@ -1,12 +1,13 @@
 body {
 	font-family: 'Orbitron', sans-serif;
 	display: flex;
-	min-height: 100vh;
+	min-height: 110vh;
 	flex-direction: column;
 }
 
 p {
 	margin-bottom: 0;
+	margin-top: 5px;
 }
 
 h2 {
